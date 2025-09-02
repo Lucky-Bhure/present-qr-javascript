@@ -17,8 +17,9 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 220 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 220 100% 60%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -37,6 +38,23 @@ All colors MUST be HSL.
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
+
+    /* QR System specific colors */
+    --success: 142 76% 36%;
+    --success-foreground: 355 100% 97%;
+    --warning: 48 96% 53%;
+    --warning-foreground: 26 83% 14%;
+
+    /* Beautiful gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-success: linear-gradient(135deg, hsl(var(--success)), hsl(142 76% 45%));
+
+    /* Shadows and effects */
+    --shadow-qr: 0 10px 30px -10px hsl(var(--primary) / 0.3);
+    --shadow-card: 0 4px 6px -1px hsl(220 13% 91% / 0.1);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
@@ -65,11 +83,17 @@ All colors MUST be HSL.
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 220 100% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 220 100% 70%;
 
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
+
+    --success: 142 70% 45%;
+    --success-foreground: 355 100% 97%;
+    --warning: 48 96% 53%;
+    --warning-foreground: 26 83% 14%;
 
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
